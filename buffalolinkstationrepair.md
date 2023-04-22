@@ -1,4 +1,5 @@
 taken from Aaron's page:
+http://web.archive.org/web/20230127121939/https://blog.aaronhastings.me/completely-recovering-from-a-bricked-buffalo-linkstation-ls200-series-nas-and-opening-the-firmware-too/
 
 download links:
 http://web.archive.org/web/20230127121939/https://blog.aaronhastings.me/content/buffalo_ls200/TFTP_Boot_Recovery_LS200.zip
