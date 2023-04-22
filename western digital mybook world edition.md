@@ -1,4 +1,4 @@
-i know this is old but it serves my ps2 game files well
+#i know this is old but it serves my ps2 game files well
 
 last firmware:
 https://support-en.wd.com/app/answers/detailweb/a_id/1739/kw/my%20book%20world#manual
