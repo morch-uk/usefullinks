@@ -4,8 +4,16 @@ download links:
 http://web.archive.org/web/20230127121939/https://blog.aaronhastings.me/content/buffalo_ls200/TFTP_Boot_Recovery_LS200.zip
 http://web.archive.org/web/20230127121939/https://blog.aaronhastings.me/content/buffalo_ls200/nasnavi-281.zip
 firmware as on buffalo page https://www.buffalotech.com/support/downloads/linkstation-200-series
+http://web.archive.org/web/20230000000000*/https://www.buffalotech.com/support/downloads/linkstation-200-series
 
+1.75
+http://web.archive.org/web/20230422192827/https://dd00b71c8b1dfd11ad96-382cb7eb4238b9ee1c11c6780d1d2d1e.ssl.cf1.rackcdn.com/ls200-v175.zip
+
+1.78
 https://dd00b71c8b1dfd11ad96-382cb7eb4238b9ee1c11c6780d1d2d1e.ssl.cf1.rackcdn.com/ls200-v178.zip
+http://web.archive.org/web/20230422192655/https://dd00b71c8b1dfd11ad96-382cb7eb4238b9ee1c11c6780d1d2d1e.ssl.cf1.rackcdn.com/ls200-v178.zip
+
+not sure if useful
 http://web.archive.org/web/20230127121939/https://github.com/tohenk/linkstation-mod/archive/master.zip
 
 I recently bought a Buffalo LinkStation LS220 NAS (network-attached storage) device. The device itself is a good quality piece of hardware, but the software leaves a lot to be desired. I bought this NAS purely as a redundant (i.e. RAID1) backup solution and intended to use it as an SSH server for my rsync backup scripts. Much to my disappointment, however, the firmware came far more locked-down than I had hoped, and provided no means to (easily) enable SSH. In my struggles to find an elegant solution to this, I ended up “bricking” the device, meaning it would no longer boot. To make matters worse, I later found out that the LS220’s recovery features are stored on the disks’ /boot partition, which I had wiped while cleaning down the disks. The information available online for unbricking and/or opening the firmware of the LS200-series is… sparse. I ended up having to contact Buffalo support in order to rectify everything. Thinking they’d tell me I’d voided my warranty and couldn’t help me as such, I was pleasantly surprised at how helpful they were in providing me TFTP Boot instructions, including all the relevant software and images required. This post should act as a definitive guide to unbricking your LS200-series. I’ve even provided instructions on how to open up the firmware, enabling SSH, Telnet and more. Note that you will lose all data on your NAS, so perform any backups where possible. This guide assumes you are running Linux and that your NAS is a LinkStation LS220. Part 1: Wiping the drives
