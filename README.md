@@ -5,4 +5,4 @@ Repairing a bricked Buffalo linkstation - or putting in a new drive
 http://web.archive.org/web/20230127121939/https://blog.aaronhastings.me/completely-recovering-from-a-bricked-buffalo-linkstation-ls200-series-nas-and-opening-the-firmware-too/
 
 WD Western Digital my book world edition - also repair replaced bricked hard drive
-http://web.archive.org/web/20191125034117/http://iknowsomething.com/how-to-fix-bricked-wd-my-book-world-edition-or-install-brand-new-disk/
+http://web.archive.org/web/20200617101851/http://iknowsomething.com/how-to-fix-bricked-wd-my-book-world-edition-or-install-brand-new-disk/
